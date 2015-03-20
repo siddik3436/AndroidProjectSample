@@ -5,17 +5,8 @@
     tools:context="${relativePackage}.${activityClass}" >
 
     <TextView
-        android:id="@+id/textViewSamplProject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-    <Button 
-        android:id="@+id/buttonMainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:onClick="onClick"
-        android:layout_below="@+id/textViewSamplProject"
-        android:text="@string/button_text_sample_project_activity"/>
 
 </RelativeLayout>
